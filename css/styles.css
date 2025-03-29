@@ -32,7 +32,7 @@ button {
   padding: 0;
 }
 
-p {
+p, small {
   color: rgba(100, 72, 2, 1)
 }
 
@@ -95,12 +95,12 @@ header .container {
 }
 
 #close {
- color:antiquewhite;
- display: none;
- position: fixed;
- top: 16px;
- right: 16px;
- cursor: pointer;
+  color:antiquewhite;
+  display: none;
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
 }
 
 #close.appear {
